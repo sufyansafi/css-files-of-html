@@ -1,0 +1,262 @@
+body{
+    background-image: url(pictures/b.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.a{
+    text-align: center;
+}
+.b{
+    border: 5px solid black;
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+    word-spacing: 10px;
+}
+.c{
+    
+    float: left;
+    margin-top: 5px;
+    text-align: center;
+    
+    box-sizing: border-box;
+    width: 48%;
+
+}
+.d{
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.e{
+
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+}
+  .f{
+      width: 100px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    background-color: green;
+    margin-top: 10px;
+}
+.g{
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    margin-top: 10px;
+    background-color: green;
+}
+.h{
+    margin-top: 10px;
+    width: 105px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    background-color: green;
+}
+.i{
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+}
+.j{
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+}
+.k{
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+}
+.l{
+
+        margin-top: 10px;
+        width: 150px;
+        height: 30px;
+    text-align: center;
+        
+        color: white;
+        background-color: green;
+    
+}
+.m{
+    
+
+box-sizing: border-box;
+    width: 48%;
+    float: left;
+    margin-top: 5px;
+    text-align: center;
+    
+    
+}
+
+.sufyan{
+  border: black 5px solid;
+box-sizing: border-box;
+margin-bottom: 5px;
+margin-top: 10px;
+
+}
+.sufyan img{
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.n{
+    float: left;
+    margin-top: 100px;
+}
+.o{
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+text-align: center;
+    
+    color: white;
+    background-color: green;
+    display: block;
+
+}
+.p{
+
+    float: left;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.q{
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+text-align: center;
+    
+    color: white;
+    background-color: green;
+    display: block;
+}
+.p img{
+    margin-top: 180px;
+}
+.r{
+    float: right;
+    margin-top: 280px;
+}
+.s{
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+text-align: center;
+    
+    color: white;
+    background-color: green;
+    display: block;
+} 
+.t{
+    float: left;
+    margin-top: 100px;
+    width: 30%;
+}
+.u{
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+text-align: center;
+    
+    color: white;
+    background-color: green;
+    display: block;
+}   
+.v{
+    float: left;
+margin-top: 100px;
+}
+.w{
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+text-align: center;
+    
+    color: white;
+    background-color: green;
+    display: block;
+}
+.x{
+    width: 50%;
+float: left;
+    margin-top: 20px;
+    text-align: center;
+}
+.y{
+    background-color: green;
+    color: white;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.z{
+    
+    width: 50%;
+float: left;
+    margin-top: 20px;
+    text-align: center;
+}
+.cours{
+    background-color: green;
+    color: white;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sufi{
+    float: left;
+    text-align: center;
+    width: 48%;
+}
+.suf{
+    float: left;
+    text-align: center;
+    width: 48%;
+}
+.su{
+    float: left;
+    width:50%;
+    text-align: center;
+    margin-left: 300px;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+
+  .safi{
+
+    float: left;
+    text-align: center;
+    width: 50%;
+    margin-left: 300px;
+  }
+  .footer{
+      float: left;
+      margin-top: 10px;
+      text-align: center;
+      width: 100%;
+  }
+  .zee{
+      float: left;
+      width: 50%;
+
+  }
+  .ze{
+      float: center;
+    background-color: green;
+    color: white;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;   text-align: center;
+    margin-left: 600px;
+  }

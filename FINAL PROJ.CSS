@@ -1,0 +1,75 @@
+body{
+background-color: aqua;
+}
+
+
+table{
+    width: 80%;
+
+}
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:100%;
+}
+
+td, th {
+    border: 5px solid black;
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow:5px 10px;
+}
+
+input[type=submit]{
+    width: 20%;
+    background-color:green;
+    color: white;
+    padding: 10px  10px 10px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     
+}
+
+  form div.form-action-buttons{
+    text-align: center;
+    animation-name: sufyan;
+animation-duration: 3s;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+@keyframes sufyan{
+    from{ width: 20%;}
+    to{ width: 100%;}
+
+}

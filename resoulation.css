@@ -1,0 +1,26 @@
+.i1{
+    width: 300px;
+    height: auto;
+    border: aqua 5px solid;
+    float: left;
+}
+.i2{
+    border: black 5px solid;
+width: 300px;
+height: auto;
+float: left;
+}
+
+
+.i3{
+    width: 300px;
+    height: auto;
+    border: 5px solid green;
+    float: left;
+}
+ .p1{
+     object-fit: fill;
+ }
+ .p2{
+     object-fit: cover;
+ }

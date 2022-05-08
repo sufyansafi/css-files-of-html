@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(pictures/ss.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: contain;
+    position: relative;
+    padding-left: 8%;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items:center;
+    flex-wrap: wrap;
+    padding: 0px 10px 0px 10px;
+}
+.sufyan{
+    border-radius: 50px;
+    cursor: pointer;
+}
+  nav ul{
+ flex: 1;
+ text-align: right;
+ padding-right: 50px;
+}
+  nav ul li{
+list-style: none;
+margin: 0px 30px 0px 0px ;
+display: inline-block;
+}
+nav ul li a{
+    color: #FFF
+    ;
+    text-decoration: none;
+    position: relative;
+    font-weight: bold;
+}
+  nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom:-10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: turquoise;
+    cursor: pointer;
+    transition: width ease-in 0.8s ;
+}
+
+nav ul li a:hover::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom:-10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: turquoise;
+    cursor: pointer;
+    
+}
+.box1{
+    color: white;
+    font-family:monospace;
+    bottom: 12%;
+    position: absolute;
+}
+.box1 p{
+    font-weight: 600px;
+    font-family:fantasy;
+    font-size: 50px;
+}
+.box1 h1{
+    font-size: 150px;
+    line-height: 160px;
+    margin-left: -20px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background-image: url(pictures/me.jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation:  back 20s linear infinite;
+}
+
+
+@keyframes back{
+    from{background-position:  0%  0%;}
+    to{background-position: 100% 100%;}
+}
+
+.box1 h3{
+    text-transform: uppercase;
+    font-size: 20px; color: black;
+    font-weight: 500px;
+
+}
+.box1 .row{
+    display: flex;
+flex-wrap: wrap;
+align-items: center;
+margin-top: 10px;
+}
+.box1 a{
+color: black;
+border: 2px solid white;
+padding: 20px;
+font-size: 20px;
+text-decoration: none;
+margin-right: 40px;
+cursor: pointer;
+}
+.social-icons{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+.social-icons img{
+    display: block;
+    width: 75px;
+    border-radius: 50px;
+    margin-top: 5px;
+    cursor: pointer;
+}

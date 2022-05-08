@@ -1,0 +1,117 @@
+.body{
+background-color: beige;
+
+}
+.header {
+    background-color:#39518f;
+    height: 50px;
+    padding-top:30px;
+    
+    
+}
+.header a{
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    padding-left: 130px;
+    font-family: sans-serif;
+    
+    
+}
+.cntent{
+float: left;
+padding-left: 400px; 
+width: 100%;
+margin-bottom: 80px;
+padding-bottom: 30px;
+ background-color:hsl(0 , 0%, 92%);
+  
+}
+
+.cntent h1{
+    font-style: bold;
+    font-size: 40px;
+}
+.cntent h2{
+    color: grey;
+    
+}
+.s{
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+}
+.u{
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+}
+.f{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+}
+.y{
+    width: 350px;
+height: 30px;
+border-radius: 5px;
+}
+
+.a{
+width: auto;
+border-radius: 5px;
+}
+
+
+
+.content , button{
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    opacity: 0.8;
+    font-size: 20px;
+    border-radius: 5PX;
+}
+.footer{
+    word-spacing: 5px;
+    padding-left: 100px;
+    background-color: #fff;
+    text-decoration: none;
+}
+.footer a{
+
+text-decoration: none;
+}
+
+.l1 ,.l2{
+    color: gray;
+}
+
+
+
+.footer p{
+    color: #39518f;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 11px;
+    word-spacing: 15px;
+}
+.footer h5{
+    color: grey;
+}
+
+.tooltip{
+    border: 5px solid aqua;
+    display: inline-block;
+    position: relative;
+}
+.tooltiptext{
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    color: black;
+    
+}
+.tooltip:active .tooltiptext{
+    visibility: visible;
+}

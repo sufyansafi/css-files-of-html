@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(pictures/dicati.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.navigationbar{
+    background-image: url(pictures/w.jpg);
+}
+.navigationbar ul{
+text-align: center;}
+
+
+.navigationbar ul li {
+    display: inline-flex;
+
+
+}
+.navigationbar ul li a{
+    list-style: none;
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+    
+}

@@ -1,0 +1,21 @@
+.moody{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    line-height: 300px;
+    text-align: center;
+    animation-name:iqu ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes iqu{
+    from{border-radius: 0%;}
+    to{border-radius: 50%;}
+    from{background-color: turquoise;}
+    to{background-color: blueviolet;}
+    from{width:300px ;}
+    to{width: 600px;}
+    from{text-align: center;}
+    to{text-align: right;}
+
+}
